@@ -32,6 +32,16 @@ label {
     width: 25%;
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
 #data, #cliente, #rua, #estado, #cidade{
     width: 75%;
     margin-left: 4px;
