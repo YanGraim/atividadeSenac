@@ -54,17 +54,27 @@ input[type=number] {
     width: 75%;
     height: 30px;
     padding: 4px;
-    border: 1px solid #8e8e8e;
     border-radius: 4px;
 }
 
+input:required:invalid
+{
+    border: 1px solid red;
+}
+input:required:valid
+{
+    border: 1px solid #8e8e8e;
+}
 
 #cep {
     width: 25%;
     height: 30px;
     padding: 4px;
-    border: 1px solid #8e8e8e;
     border-radius: 4px;
+}
+
+#rua {
+    border: 1px solid #8e8e8e
 }
 
 
